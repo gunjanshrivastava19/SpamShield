@@ -8,15 +8,14 @@ SpamShield is a machine-learning-based SMS spam detection application that class
 The project combines **Natural Language Processing (NLP), TF-IDF feature extraction, Logistic Regression, and rule-based keyword detection** with an interactive **Streamlit** interface
 
 ## 🖥️ Application Preview
+
+<img src="./screenshots/PowershellCode.png" alt="SpamShield Development Terminal" width="900">
 <img src="./screenshots/Interface.png" alt="SpamShield User Interface" width="900">
 
 <img src="./screenshots/SpamDetect.png" alt="SpamShield Spam Detection" width="900">
 
 <img src="./screenshots/NotSpamDetect.png" alt="SpamShield Normal Message Detection" width="900">
 
-
-
-<img src="./screenshots/PowershellCode.png" alt="SpamShield Development Terminal" width="900">
 
 
 ## **Features**
