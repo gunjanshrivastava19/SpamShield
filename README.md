@@ -2,6 +2,7 @@
 This project is a machine learning-based Spam Detection System that classifies SMS messages as Spam or Not Spam (Ham). It uses text preprocessing, TF-IDF feature extraction, and a Logistic Regression model to make predictions. The system also includes a keyword-based check for detecting obvious spam messages.
 
  **AI-Powered SMS Spam Detection System:**
+ 
 SpamShield is a machine-learning-based SMS spam detection application that classifies messages as **SPAM** or **NOT SPAM**.
 The project combines **Natural Language Processing (NLP), TF-IDF feature extraction, Logistic Regression, and rule-based keyword detection** with an interactive **Streamlit** interface.
 **Features**
@@ -37,6 +38,7 @@ The project combines **Natural Language Processing (NLP), TF-IDF feature extract
         SPAM / NOT SPAM
    
  **SpamShield uses a hybrid detection approach**
+ 
 The Logistic Regression model analyzes the TF-IDF representation of the message, while a rule-based detector checks for high-signal spam keywords such as:
 **lottery, prize, winner, claim, free, cash, reward, credited, won**
 The final prediction uses the original 35% spam-probability threshold together with the keyword-based detection logic.
@@ -54,6 +56,7 @@ The final prediction uses the original 35% spam-probability threshold together w
 | Regular Expressions | Text cleaning                      |
 
 **Dataset**
+
 SpamShield uses the SMS Spam Collection dataset containing:
 **5,574 total messages
 4,825 Ham messages
@@ -62,6 +65,7 @@ Approximately 13.44% spam messages**
 The dataset contains the original v1 and v2 columns, representing the message label and SMS text.
 
 **Model Performance**
+
 The model is evaluated using a stratified 80/20 train-test split with random_state=42.
 | Metric    |      Score |
 | --------- | ---------: |
@@ -80,9 +84,11 @@ The model achieves a 94% recall for spam messages, meaning it identifies the maj
 Performance metrics are calculated dynamically from the project's test split and are not hard-coded.
 
 **Application**
+
 SpamShield provides an interactive Streamlit interface with several sections:
 
  **Detect Message**
+ 
 Enter an SMS message and receive:
 
 **SPAM / NOT SPAM prediction
@@ -90,7 +96,9 @@ Confidence score
 Spam probability
 Detection explanation**
 
+
 📊**Dashboard**
+
 Provides an overview of:
 **Total messages
 Spam messages
@@ -98,7 +106,9 @@ Ham messages
 Spam percentage
 Spam vs Ham distribution**
 
+
 🤖**Model Information**
+
 Displays:
 **Machine Learning algorithm
 TF-IDF configuration
@@ -107,14 +117,20 @@ Spam threshold
 Model performance
 Confusion matrix**
 
+
 ⚙️**How It Works**
+
 Explains the complete SpamShield detection pipeline.
 
+
 ℹ️**About Project**
+
 Provides an overview of the project's purpose and technologies.
 
 
+
 📂**Project Structure**
+
 SpamShield
 ─ app.py
 ─ spam_model.py
@@ -124,7 +140,9 @@ SpamShield
 ─ .gitignore
 ─ README.md
 
+
 **File Description**
+
 
 **app.py**
 Main Streamlit application and user interface.
