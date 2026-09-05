@@ -1,4 +1,4 @@
-##**SpamShield Project**
+## **SpamShield Project**
 
 This project is a machine learning-based Spam Detection System that classifies SMS messages as Spam or Not Spam (Ham). It uses text preprocessing, TF-IDF feature extraction, and a Logistic Regression model to make predictions. The system also includes a keyword-based check for detecting obvious spam messages.
 
@@ -13,7 +13,7 @@ The project combines **Natural Language Processing (NLP), TF-IDF feature extract
 <img src="./screenshots/PowershellCode.png" alt="SpamShield Development Terminal" width="900">
 
 
-**Features**
+## **Features**
 
 -  Real-time SMS spam detection
 -  Machine Learning classification using Logistic Regression
