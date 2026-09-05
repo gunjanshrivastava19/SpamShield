@@ -4,7 +4,14 @@ This project is a machine learning-based Spam Detection System that classifies S
  **AI-Powered SMS Spam Detection System:**
  
 SpamShield is a machine-learning-based SMS spam detection application that classifies messages as **SPAM** or **NOT SPAM**.
-The project combines **Natural Language Processing (NLP), TF-IDF feature extraction, Logistic Regression, and rule-based keyword detection** with an interactive **Streamlit** interface.
+The project combines **Natural Language Processing (NLP), TF-IDF feature extraction, Logistic Regression, and rule-based keyword detection** with an interactive **Streamlit** interface
+
+## 🖥️ Application Preview
+<img src="./screenshots/Interface.png" alt="SpamShield User Interface" width="900">
+
+<img src="./screenshots/PowershellCode.png" alt="SpamShield Development Terminal" width="900">
+
+
 **Features**
 
 -  Real-time SMS spam detection
@@ -36,6 +43,8 @@ The project combines **Natural Language Processing (NLP), TF-IDF feature extract
           Final Classification
                  ↓
         SPAM / NOT SPAM
+
+  
    
  **SpamShield uses a hybrid detection approach**
  
@@ -74,6 +83,7 @@ The model is evaluated using a stratified 80/20 train-test split with random_sta
 | Recall    | **94.00%** |
 | F1 Score  | **69.29%** |
 
+
 Confusion Matrix
                  Predicted
                Ham     Spam
@@ -83,11 +93,13 @@ Actual Spam      9     141
 The model achieves a 94% recall for spam messages, meaning it identifies the majority of spam messages in the test set.
 Performance metrics are calculated dynamically from the project's test split and are not hard-coded.
 
-**Application**
+## **Application**
 
 SpamShield provides an interactive Streamlit interface with several sections:
 
- **Detect Message**
+<img src="./screenshots/Navigation.png" alt="SpamShield Navigation" width="900">
+
+ ## **Detect Message**
  
 Enter an SMS message and receive:
 
@@ -95,9 +107,13 @@ Enter an SMS message and receive:
 Confidence score
 Spam probability
 Detection explanation**
+<img src="./screenshots/SpamDetect.png" alt="SpamShield Spam Detection" width="900">
+
+<img src="./screenshots/NotSpamDetect.png" alt="SpamShield Normal Message Detection" width="900">
 
 
-📊**Dashboard**
+
+## 📊**Dashboard**
 
 Provides an overview of:
 **Total messages
@@ -106,8 +122,10 @@ Ham messages
 Spam percentage
 Spam vs Ham distribution**
 
+<img src="./screenshots/DataOverview.png" alt="SpamShield Dataset Overview" width="900">
 
-🤖**Model Information**
+
+## 🤖**Model Information**
 
 Displays:
 **Machine Learning algorithm
@@ -117,15 +135,19 @@ Spam threshold
 Model performance
 Confusion matrix**
 
+<img src="./screenshots/ModelInfo.png" alt="SpamShield Model Information and Performance" width="900">
 
-⚙️**How It Works**
+
+## ⚙️**How It Works**
 
 Explains the complete SpamShield detection pipeline.
+ <img src="./screenshots/Working.png" alt="SpamShield Working Application" width="900">
 
 
 ℹ️**About Project**
 
 Provides an overview of the project's purpose and technologies.
+<img src="./screenshots/About.png" alt="About SpamShield" width="900">
 
 🚀**Installation**
 
