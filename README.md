@@ -27,7 +27,7 @@ The project combines **Natural Language Processing (NLP), TF-IDF feature extract
 -  Interactive Streamlit web interface
 -  Cached model training for faster interaction
 
-   **How SpamShield Works**
+  ## **How SpamShield Works**
 
             SMS Message
                  ↓
@@ -47,7 +47,7 @@ The project combines **Natural Language Processing (NLP), TF-IDF feature extract
 
   
    
- **SpamShield uses a hybrid detection approach**
+ ## **SpamShield uses a hybrid detection approach**
  
 The Logistic Regression model analyzes the TF-IDF representation of the message, while a rule-based detector checks for high-signal spam keywords such as:
 **lottery, prize, winner, claim, free, cash, reward, credited, won**
@@ -65,7 +65,7 @@ The final prediction uses the original 35% spam-probability threshold together w
 | Streamlit           | Interactive web interface          |
 | Regular Expressions | Text cleaning                      |
 
-**Dataset**
+**Dataset:**
 
 SpamShield uses the SMS Spam Collection dataset containing:
 **5,574 total messages
@@ -74,7 +74,7 @@ SpamShield uses the SMS Spam Collection dataset containing:
 Approximately 13.44% spam messages**
 The dataset contains the original v1 and v2 columns, representing the message label and SMS text.
 
-**Model Performance**
+**Model Performance:**
 
 The model is evaluated using a stratified 80/20 train-test split with random_state=42.
 | Metric    |      Score |
@@ -85,7 +85,7 @@ The model is evaluated using a stratified 80/20 train-test split with random_sta
 | F1 Score  | **69.29%** |
 
 
-Confusion Matrix
+**Confusion Matrix**
                  Predicted
                Ham     Spam
 
