@@ -127,6 +127,35 @@ Explains the complete SpamShield detection pipeline.
 
 Provides an overview of the project's purpose and technologies.
 
+🚀**Installation**
+
+**1. Clone the repository**
+git clone https://github.com/gunjanshrivastava19/SpamShield.git
+
+**2. Navigate to the project directory**
+cd SpamShield
+
+**3. Install the required dependencies**
+pip install -r requirements.txt
+
+**4. Run the Streamlit application**
+streamlit run app.py
+
+
+The application will open automatically in your browser. If it doesn't, open the Local URL displayed in the terminal, usually:
+**http://localhost:8501**
+
+**Optional: Using a Virtual Environment**
+
+For a cleaner Python setup, you can create a virtual environment:
+
+Windows:
+
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+
 
 
 📂**Project Structure**
@@ -161,7 +190,7 @@ Python dependencies required to run the application.
 
 
 
-**Code Explanation**
+**Code Explanation of the SpamDetectionModel_legacy**
 This project builds a Spam Detection System using Machine Learning and a small rule-based filter. Below is the explanation of how the code works:
 
 **1. Importing Libraries**
