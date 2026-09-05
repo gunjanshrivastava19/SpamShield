@@ -10,6 +10,12 @@ The project combines **Natural Language Processing (NLP), TF-IDF feature extract
 ## 🖥️ Application Preview
 <img src="./screenshots/Interface.png" alt="SpamShield User Interface" width="900">
 
+<img src="./screenshots/SpamDetect.png" alt="SpamShield Spam Detection" width="900">
+
+<img src="./screenshots/NotSpamDetect.png" alt="SpamShield Normal Message Detection" width="900">
+
+
+
 <img src="./screenshots/PowershellCode.png" alt="SpamShield Development Terminal" width="900">
 
 
