@@ -145,12 +145,12 @@ Explains the complete SpamShield detection pipeline.
  <img src="./screenshots/Working.png" alt="SpamShield Working Application" width="900">
 
 
-ℹ️**About Project**
+## ℹ️**About Project**
 
 Provides an overview of the project's purpose and technologies.
 <img src="./screenshots/About.png" alt="About SpamShield" width="900">
 
-🚀**Installation**
+## 🚀**Installation**
 
 **1. Clone the repository**
 git clone https://github.com/gunjanshrivastava19/SpamShield.git
@@ -168,7 +168,7 @@ streamlit run app.py
 The application will open automatically in your browser. If it doesn't, open the Local URL displayed in the terminal, usually:
 **http://localhost:8501**
 
-**Optional: Using a Virtual Environment**
+## **Optional: Using a Virtual Environment**
 
 For a cleaner Python setup, you can create a virtual environment:
 
@@ -181,7 +181,7 @@ streamlit run app.py
 
 
 
-📂**Project Structure**
+## 📂**Project Structure**
 
 SpamShield
 ─ app.py
@@ -193,8 +193,7 @@ SpamShield
 ─ README.md
 
 
-**File Description**
-
+## **File Description**
 
 **app.py**
 Main Streamlit application and user interface.
@@ -213,7 +212,7 @@ Python dependencies required to run the application.
 
 
 
-**Code Explanation of the SpamDetectionModel_legacy**
+## **Code Explanation of the SpamDetectionModel_legacy**
 This project builds a Spam Detection System using Machine Learning and a small rule-based filter. Below is the explanation of how the code works:
 
 **1. Importing Libraries**
